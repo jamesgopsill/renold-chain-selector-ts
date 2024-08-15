@@ -14,7 +14,7 @@ jobs:
       - name: Install Packages
         run: bun install
       - name: Build Docs
-        run: bun make:docs
+        run: bun build:docs
       # Upload docs artifact for github-pages
       - uses: actions/upload-pages-artifact@v1
         with:
