@@ -1,0 +1,42 @@
+{
+	"$schema": "https://json.schemastore.org/package",
+	"name": "@jamesgopsill/renold-chain-selector",
+	"description": "A Typescript client for the Renold Chain Selector.",
+	"keywords": [
+		"Renold",
+		"Chain Selector"
+	],
+	"repository": {
+		"type": "github",
+		"url": "https://github.com/jamesgopsill/renold-chain-selector-ts"
+	},
+	"homepage": "https://jamesgopsill.github.io/renold-chain-selector-ts",
+	"funding": {
+		"type": "individual",
+		"url": "https://github.com/sponsors/jamesgopsill"
+	},
+	"type": "module",
+	"version": "0.1.0",
+	"engines": {
+		"node": ">=20.0.0"
+	},
+	"main": "./dist/index.js",
+	"files": [
+		"dist/**/*"
+	],
+	"scripts": {
+		"build:dist": "tsc --project tsconfig.build.json",
+		"build:docs": "typedoc",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"@types/bun": "latest",
+		"prettier": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "latest"
+	},
+	"dependencies": {
+		"typedoc": "^0.26.5"
+	}
+}
