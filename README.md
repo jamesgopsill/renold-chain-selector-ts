@@ -49,3 +49,8 @@ if (r.ok) {
 ## Docs
 
 The docs have been produced using [TypeDoc](https://typedoc.org/) and can be accessed [here](https://jamesgopsill.github.io/renold-chain-selector-ts/). If you enter the IP address of your machine in your browser window then that will take you to the API documentation.
+
+## TODO
+
+- Create the validation function to validate the criteria before sending it to the API.
+- Enable manual chain selection (currently set to automatic selection).
